@@ -1,0 +1,37 @@
+{
+  "name": "node-ts-lab",
+  "version": "1.0.0",
+  "description": "A personal lab for experimenting with Node.js and Typescript: language, features, algorithms, testing, file system, database...",
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "lab",
+    "algorithms",
+    "tests",
+    "backend",
+    "database"
+  ],
+  "homepage": "https://github.com/davidfaria/node-ts-lab#readme",
+  "bugs": {
+    "url": "https://github.com/davidfaria/node-ts-lab/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidfaria/node-ts-lab.git"
+  },
+  "license": "MIT",
+  "author": "David Faria",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx vitest --run",
+    "test:watch": "npx vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
