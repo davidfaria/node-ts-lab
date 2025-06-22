@@ -1,4 +1,4 @@
-export function slidingWindow(nums: number[], k: number) {
+export function containsNearbyDuplicate(nums: number[], k: number) {
   const set = new Set<number>();
 
   for (let i = 0; i < nums.length; i++) {
