@@ -1,34 +1,34 @@
 export class Stack<T> {
-  private _items: T[];
+  #items: T[];
   constructor() {
-    this._items = [];
+    this.#items = [];
   }
 
   size() {
-    return this._items.length;
+    return this.#items.length;
   }
 
   isEmpty() {
-    return this._items.length === 0;
+    return this.#items.length === 0;
   }
 
   push(item: T) {
-    this._items.push(item);
+    this.#items.push(item);
   }
 
   pop(): T | undefined {
-    return this._items.pop();
+    return this.#items.pop();
   }
 
   peek(): T | undefined {
-    return this._items[this._items.length - 1];
+    return this.#items[this.#items.length - 1];
   }
 
   clear() {
-    this._items = [];
+    this.#items = [];
   }
 
   toString() {
-    return `[ ${this._items.join(", ")} ]`;
+    return `[ ${this.#items.join(", ")} ]`;
   }
 }

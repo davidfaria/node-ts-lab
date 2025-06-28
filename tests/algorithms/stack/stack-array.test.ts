@@ -1,6 +1,6 @@
 import { Stack } from "@/algorithms/stack/stack-array.js";
 
-describe("Stack", () => {
+describe("Stack - Array", () => {
   test("Should be create a stack", () => {
     const stack = new Stack<number>();
     expect(stack).toBeDefined();
