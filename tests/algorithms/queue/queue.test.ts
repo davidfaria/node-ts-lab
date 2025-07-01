@@ -1,4 +1,4 @@
-import { Queue } from "@/algorithms/queue/queue";
+import { Queue } from "@/algorithms/queue/queue.js";
 
 describe("Queue", () => {
   test("should be create a queue", () => {
